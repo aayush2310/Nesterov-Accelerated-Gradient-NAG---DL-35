@@ -1,0 +1,3 @@
+tf.keras.optimizers.SGD(
+     learning_rate=0.01,momentum=0.9,mesterov=True,name="SGD","kwargs
+)
