@@ -1,0 +1,10 @@
+It is a solution of the oscillations we observed in momentum GD.
+oscillations are damped(reduced)
+
+The difference in NAG is about the gradient update will be calculated at which position.
+
+In NAG we dont apply gradient and momentum at the same point,we first apply momentum and move to a lower point(look ahead term) and then we apply gradient at that lower 
+point.Thus oscillation is reduced.
+
+Disadvantage:-
+NAG dampens oscillation,so we might get struck at local minima,but in momentum one it was not there.
